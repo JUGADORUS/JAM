@@ -6,7 +6,8 @@ using System;
 [CreateAssetMenu(menuName = "Data/Game/Player")]
 public class SOPlayer : ScriptableObject
 {
-    public ModelPlayer[] modelPlayers;
+    public int indexGeneralShape;
+    public ModelPlayer[] modelPlayers;    
 }
 
 [Serializable]
@@ -15,5 +16,6 @@ public struct ModelPlayer
 {
     public Player prefab;
     public float speed;
+    public float speedRotation;
     public float jumpForce;
 }

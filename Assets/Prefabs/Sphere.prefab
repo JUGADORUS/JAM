@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5735088004096086053}
   - component: {fileID: 819693258898337209}
   - component: {fileID: 7424854324925056023}
-  - component: {fileID: 8634278791153279147}
-  m_Layer: 0
+  - component: {fileID: 7267253174679410507}
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 0
---- !u!114 &8634278791153279147
+--- !u!114 &7267253174679410507
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,14 +143,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3944114587723550775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e368c2dc867a1429969019f4f9ff25, type: 3}
+  m_Script: {fileID: 11500000, guid: 624e9494a88d9d84b8767489d65dba70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SOPlayer: {fileID: 11400000, guid: d685e2655ad3b2d4e833794bce9c0e1c, type: 2}
   modelPlayer:
     prefab: {fileID: 0}
     speed: 0
+    speedRotation: 0
     jumpForce: 0
+  spawnShape: {fileID: 0}
   rigidbody: {fileID: 7424854324925056023}
-  spawnPos: {fileID: 0}
+  collider: {fileID: 819693258898337209}
   _isGrounded: 1

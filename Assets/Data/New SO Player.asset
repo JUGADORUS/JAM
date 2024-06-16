@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d03eba13abf62524ba35e624fabd0581, type: 3}
   m_Name: New SO Player
   m_EditorClassIdentifier: 
+  indexGeneralShape: 1
   modelPlayers:
-  - prefab: {fileID: 8634278791153279147, guid: 57df73eca4624734ca2522980a0d097b,
+  - prefab: {fileID: 7267253174679410507, guid: 57df73eca4624734ca2522980a0d097b,
       type: 3}
     speed: 5
-    jumpForce: 500
-  - prefab: {fileID: 3317839348210194548, guid: a6657f8432007244d8f6597ff73fe4af,
+    speedRotation: 0
+    jumpForce: 10
+  - prefab: {fileID: 5432318814996012009, guid: a6657f8432007244d8f6597ff73fe4af,
       type: 3}
     speed: 10
-    jumpForce: 600
-  - prefab: {fileID: 5240429569338047620, guid: c69effd4cf24bcc4f9c586434c287985,
-      type: 3}
+    speedRotation: 0.5
+    jumpForce: 10
+  - prefab: {fileID: 602644273715548695, guid: c69effd4cf24bcc4f9c586434c287985, type: 3}
     speed: 2
-    jumpForce: 750
+    speedRotation: 0
+    jumpForce: 10
