@@ -28,7 +28,6 @@ public class Helicopter : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, target.position, _speed);
         Vector3 direction = target.position - transform.position;
-        transform.rotation = Quaternion.LookRotation(direction);
 
         if (Vector3.Distance(transform.position, _target.position) < 1f && _target == _pointTwo)
         {

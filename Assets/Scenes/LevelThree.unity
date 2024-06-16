@@ -438,13 +438,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+<<<<<<< Updated upstream
 --- !u!1 &41485855
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &41485855 stripped
+GameObject:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 100000, guid: 918397a7e0523114ea408fc4eb8ca157,
     type: 3}
   m_PrefabInstance: {fileID: 1237680029}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 41485859}
@@ -458,6 +464,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!65 &41485856
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -479,6 +487,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.0696306, y: 1.020291, z: 2.701781}
   m_Center: {x: 0.0021269917, y: 0.48947853, z: 0.12297082}
+<<<<<<< Updated upstream
 --- !u!23 &41485857
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -534,10 +543,15 @@ MeshFilter:
 --- !u!4 &41485859
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &41485859 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 400000, guid: 918397a7e0523114ea408fc4eb8ca157,
     type: 3}
   m_PrefabInstance: {fileID: 1237680029}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 41485855}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
@@ -547,6 +561,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &47651984
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,13 +689,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!1 &119410184
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &119410184 stripped
+GameObject:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 100000, guid: d59a4f6080634af41a616bc51af1d2d9,
     type: 3}
   m_PrefabInstance: {fileID: 2115725722}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 119410191}
@@ -693,6 +715,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!64 &119410188
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -715,6 +739,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8b615931481e47849972f85e029c22cf, type: 3}
+<<<<<<< Updated upstream
 --- !u!23 &119410189
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -770,10 +795,15 @@ MeshFilter:
 --- !u!4 &119410191
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &119410191 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 400000, guid: d59a4f6080634af41a616bc51af1d2d9,
     type: 3}
   m_PrefabInstance: {fileID: 2115725722}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 119410184}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000015985268, y: 0.000000014904446, z: -0.681948, w: -0.7314007}
@@ -783,6 +813,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -274.008}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &131538278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1616,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1809356933}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &293848140
 GameObject:
   m_ObjectHideFlags: 0
@@ -6383,6 +6416,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+=======
+>>>>>>> Stashed changes
 --- !u!1 &328985420
 GameObject:
   m_ObjectHideFlags: 0
@@ -7434,6 +7469,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+<<<<<<< Updated upstream
 --- !u!1 &712822499
 GameObject:
   m_ObjectHideFlags: 0
@@ -12204,10 +12240,15 @@ ParticleSystem:
 --- !u!4 &712822502
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &712822502 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 4855678003294670, guid: 5bcfcdf5411234d40b89ea2e1dd7256e,
     type: 3}
   m_PrefabInstance: {fileID: 507187581}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 712822499}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
@@ -12218,6 +12259,8 @@ Transform:
   - {fileID: 293848141}
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &724006664
 GameObject:
   m_ObjectHideFlags: 0
@@ -12463,6 +12506,7 @@ Transform:
   - {fileID: 112825930}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 10, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &748417705
 GameObject:
   m_ObjectHideFlags: 0
@@ -17233,10 +17277,15 @@ ParticleSystem:
 --- !u!4 &748417708
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &748417708 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 481270, guid: c26b84f8b12b03f4d8f03ce1826c0278,
     type: 3}
   m_PrefabInstance: {fileID: 1151793884}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 748417705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
@@ -17249,6 +17298,8 @@ Transform:
   - {fileID: 1465750316}
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &782205606
 GameObject:
   m_ObjectHideFlags: 0
@@ -17282,6 +17333,10 @@ MonoBehaviour:
   distance: 1
   camera: {fileID: 741457734}
   material: {fileID: 2100000, guid: e9f3d31065292b44f8f3be25736725bb, type: 2}
+<<<<<<< Updated upstream
+=======
+  jumpEffect: {fileID: 165672, guid: 146d2ff25be0f824fa285b16b2915ff3, type: 3}
+>>>>>>> Stashed changes
 --- !u!4 &782205608
 Transform:
   m_ObjectHideFlags: 0
@@ -17420,6 +17475,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cdcb8f0f67607241a3898407bbc5316, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &849553445
 GameObject:
   m_ObjectHideFlags: 0
@@ -17541,10 +17597,15 @@ MeshFilter:
 --- !u!4 &849553450
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &849553450 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 4828920317480319537, guid: c66541cd9485df74db0eca2cbaa7ab29,
     type: 3}
   m_PrefabInstance: {fileID: 3357937106051004335}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 849553445}
   serializedVersion: 2
   m_LocalRotation: {x: -0.17818436, y: 0.98399717, z: -0, w: 0}
@@ -17554,6 +17615,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: -20.528}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &882419057
 GameObject:
   m_ObjectHideFlags: 0
@@ -17659,13 +17722,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &895215735
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &895215735 stripped
+GameObject:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 100000, guid: d2100f10c342364479e7a527f9ef5429,
     type: 3}
   m_PrefabInstance: {fileID: 1379412948}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 895215740}
@@ -17680,6 +17749,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!65 &895215736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17701,6 +17772,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.8000008, y: 2.2166052, z: 0.16000009}
   m_Center: {x: 0.0037540793, y: 1.1083026, z: 0.017290965}
+<<<<<<< Updated upstream
 --- !u!95 &895215737
 Animator:
   serializedVersion: 5
@@ -17778,10 +17850,15 @@ MeshFilter:
 --- !u!4 &895215740
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &895215740 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 400000, guid: d2100f10c342364479e7a527f9ef5429,
     type: 3}
   m_PrefabInstance: {fileID: 1379412948}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 895215735}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
@@ -17791,6 +17868,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &927413795
 GameObject:
   m_ObjectHideFlags: 0
@@ -18111,13 +18190,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1031405819
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &1031405819 stripped
+GameObject:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 100000, guid: 800befcc62026a34693972077c91698d,
     type: 3}
   m_PrefabInstance: {fileID: 1470444543}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1031405823}
@@ -18131,6 +18216,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!64 &1031405820
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18153,6 +18240,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 2c5a85095f7a19d479cf428b0ed03e0b, type: 3}
+<<<<<<< Updated upstream
 --- !u!23 &1031405821
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18208,10 +18296,15 @@ MeshFilter:
 --- !u!4 &1031405823
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &1031405823 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d,
     type: 3}
   m_PrefabInstance: {fileID: 1470444543}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1031405819}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
@@ -18221,6 +18314,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1070648366
 GameObject:
   m_ObjectHideFlags: 0
@@ -18400,6 +18495,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 338086400}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1148837082
 GameObject:
   m_ObjectHideFlags: 0
@@ -18487,6 +18583,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 189.516, y: -291.263, z: 168.101}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1149248492
 GameObject:
   m_ObjectHideFlags: 0
@@ -19373,6 +19471,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1880194932}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1465750315
 GameObject:
   m_ObjectHideFlags: 0
@@ -24138,6 +24237,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1470444543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24223,6 +24324,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1031405820}
   m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1493266896
 GameObject:
   m_ObjectHideFlags: 0
@@ -28997,6 +29099,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1494262048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30410,6 +30514,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cdcb8f0f67607241a3898407bbc5316, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1967476666
 GameObject:
   m_ObjectHideFlags: 0
@@ -35175,6 +35280,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1970870064
 GameObject:
   m_ObjectHideFlags: 0
@@ -35309,13 +35416,19 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+<<<<<<< Updated upstream
 --- !u!1 &2039645488
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &2039645488 stripped
+GameObject:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 100000, guid: 9500f0cdde0097a4aac35ced7c1935d7,
     type: 3}
   m_PrefabInstance: {fileID: 13973283}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2039645495}
@@ -35329,6 +35442,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!65 &2039645492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35350,6 +35465,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6946056, y: 3.5785658, z: 9.302497}
   m_Center: {x: -0.0013978485, y: 1.784227, z: -0.050180923}
+<<<<<<< Updated upstream
 --- !u!23 &2039645493
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35405,10 +35521,15 @@ MeshFilter:
 --- !u!4 &2039645495
 Transform:
   m_ObjectHideFlags: 0
+=======
+--- !u!4 &2039645495 stripped
+Transform:
+>>>>>>> Stashed changes
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9500f0cdde0097a4aac35ced7c1935d7,
     type: 3}
   m_PrefabInstance: {fileID: 13973283}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 2039645488}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
@@ -35418,6 +35539,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1725462689}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!4 &2044114549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3423388300971593625, guid: 48c5715f9603c3842a353516a8baefbb,

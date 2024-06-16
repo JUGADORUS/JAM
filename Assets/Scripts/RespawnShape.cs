@@ -12,6 +12,7 @@ public class RespawnShape : MonoBehaviour
     [SerializeField] private float distance;
     [SerializeField] private CinemachineVirtualCamera camera;
     [SerializeField] private Material material;
+    [SerializeField] private GameObject jumpEffect;
 
     private Vector3 velocity;
 
@@ -75,7 +76,7 @@ public class RespawnShape : MonoBehaviour
     {
         Vector3 extance = centre;
         extance.x += centre.x + 1f;
-        Collider[] colliders = Physics.OverlapBox(centre, Current.transform.localScale /2f, Quaternion.identity);
+        Collider[] colliders = Physics.OverlapBox(centre, Current.transform.localScale, Quaternion.identity);
         int count = 0;
         for (int i = 0; i < colliders.Length; i++)
         {
@@ -100,7 +101,7 @@ public class RespawnShape : MonoBehaviour
 
         Current = Instantiate(model.prefab, pos, Quaternion.identity);
         Current.rigidbody.velocity = velocity;
-        Current.Init(model, this);
+        Current.Init(model, this, jumpEffect);
         camera.Follow = Current.transform;
     }
 }

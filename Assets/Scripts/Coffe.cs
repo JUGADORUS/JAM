@@ -15,15 +15,33 @@ public class Coffee : MonoBehaviour
     {
         if (other.TryGetComponent<Player>(out Player player)) // .gameObject.TryGetComponent(out Mover mover))
         {
-            buff = Instantiate(BuffEffect, player.transform.position, Quaternion.identity);
-            Destroy(buff);
+            if (buff == null)
+            {
+                buff = Instantiate(BuffEffect, player.transform.position, Quaternion.identity);
+            }
+            buff.transform.SetParent(player.transform);
+            StartCoroutine(SetRotation(player));
             StartCoroutine(DissappearingProcess());
             StartCoroutine(CoffeeEffect(player));
         }
     }
 
+    private IEnumerator SetRotation(Player player)
+    {
+        while(buff != null)
+        {
+            Quaternion rotation = player.transform.rotation;
+            rotation.z = -rotation.z;
+            buff.transform.localRotation =  rotation;
+            yield return null;
+        }
+
+        buff = null;
+    }
+
     private IEnumerator CoffeeEffect(Player player)
     {
+        buff.transform.localRotation = Quaternion.Euler(0, 0, 0);
         player.modelPlayer.speed += 2f;
         player.modelPlayer.jumpForce += 3f;
 
@@ -31,6 +49,7 @@ public class Coffee : MonoBehaviour
         player.modelPlayer.speed -= 2f;
         player.modelPlayer.jumpForce -= 3f;
         transform.localScale = Vector3.one;
+        Destroy(buff);
     }
 
     private IEnumerator DissappearingProcess() //оепедекюрэ

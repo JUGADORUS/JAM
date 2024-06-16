@@ -8,13 +8,16 @@ public abstract class Player : MonoBehaviour
     [SerializeField] private RespawnShape spawnShape;
     [SerializeField] public Rigidbody rigidbody;
     [SerializeField] public Collider collider;
+    [SerializeField] public GameObject jumpEffect;
+    [SerializeField] public GameObject jumpEffectToDelete;
     public MeshRenderer mesh;
     public bool _isGrounded = true;
 
-    public void Init(ModelPlayer model, RespawnShape respawnShape)
+    public void Init(ModelPlayer model, RespawnShape respawnShape, GameObject effectJump)
     {
         modelPlayer = model;
         spawnShape = respawnShape;
+        jumpEffect = effectJump;
     }
     public virtual void OnUpdate()
     {
@@ -35,6 +38,8 @@ public abstract class Player : MonoBehaviour
         {
             rigidbody.velocity = Vector3.up * modelPlayer.jumpForce;
             _isGrounded = false;
+            jumpEffectToDelete = Instantiate(jumpEffect, transform.position, Quaternion.identity);
+            Destroy(jumpEffectToDelete, 2f);
         }
     }
     protected virtual void Move()
@@ -42,7 +47,16 @@ public abstract class Player : MonoBehaviour
         Vector3 moveInput = new Vector3(Input.GetAxis("Horizontal") * modelPlayer.speed, rigidbody.velocity.y);
         rigidbody.velocity = moveInput;
     }
-    
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            jumpEffectToDelete = Instantiate(jumpEffect, transform.position, Quaternion.identity);
+            Destroy(jumpEffectToDelete, 2f);
+        }
+    }
 
     private void OnCollisionStay(Collision collision)
     {
