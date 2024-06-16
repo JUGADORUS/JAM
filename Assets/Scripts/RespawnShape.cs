@@ -46,7 +46,7 @@ public class RespawnShape : MonoBehaviour
             Destroy(Copy.gameObject);
         }
         float wight = Current.gameObject.transform.localScale.x * 2;
-        if(CheckCollision(new Vector3(Current.transform.position.x + wight + distance, Current.transform.position.y, Current.transform.position.z)))
+        if (CheckCollision(new Vector3(Current.transform.position.x + wight + distance, Current.transform.position.y, Current.transform.position.z)))
         {
             return;
         }
@@ -69,13 +69,13 @@ public class RespawnShape : MonoBehaviour
             Destroy(Current.gameObject);
         }
         SpawnInit(model, pos);
-        
+
     }
     public bool CheckCollision(Vector3 centre)
     {
         Vector3 extance = centre;
         extance.x += centre.x + 1f;
-        Collider[] colliders = Physics.OverlapBox(centre, Current.transform.localScale / 2, Quaternion.identity);
+        Collider[] colliders = Physics.OverlapBox(centre, Current.transform.localScale /2f, Quaternion.identity);
         int count = 0;
         for (int i = 0; i < colliders.Length; i++)
         {
@@ -87,7 +87,7 @@ public class RespawnShape : MonoBehaviour
         }
         return count > 1;
     }
-    void OnDrawGizmos()
+    public void OnDrawGizmos()
     {
         if (Current != null)
         {
@@ -97,6 +97,7 @@ public class RespawnShape : MonoBehaviour
     }
     public void SpawnInit(ModelPlayer model, Vector3 pos)
     {
+
         Current = Instantiate(model.prefab, pos, Quaternion.identity);
         Current.rigidbody.velocity = velocity;
         Current.Init(model, this);

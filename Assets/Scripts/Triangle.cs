@@ -40,5 +40,4 @@ public class Triangle : Player
         }
         base.Move();
     }
-
 }
