@@ -736,7 +736,7 @@ MonoBehaviour:
   rigidbody: {fileID: 3178960750740862807}
   collider: {fileID: 4517866106903450594}
   mesh: {fileID: 1171459646901654231}
-  _isGrounded: 1
+  _isGrounded: 0
 --- !u!54 &3178960750740862807
 Rigidbody:
   m_ObjectHideFlags: 0
