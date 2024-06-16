@@ -12,6 +12,9 @@ public class RespawnShape : MonoBehaviour
     [SerializeField] private float distance;
     [SerializeField] private CinemachineVirtualCamera camera;
     [SerializeField] private Material material;
+
+    private Vector3 velocity;
+
     private void Start()
     {
         SpawnInit(player.modelPlayers[player.indexGeneralShape], transform.position);
@@ -62,9 +65,11 @@ public class RespawnShape : MonoBehaviour
         if (Current != null)
         {
             pos = Current.transform.position;
+            velocity = Current.rigidbody.velocity;
             Destroy(Current.gameObject);
         }
         SpawnInit(model, pos);
+        
     }
     public bool CheckCollision(Vector3 centre)
     {
@@ -93,6 +98,7 @@ public class RespawnShape : MonoBehaviour
     public void SpawnInit(ModelPlayer model, Vector3 pos)
     {
         Current = Instantiate(model.prefab, pos, Quaternion.identity);
+        Current.rigidbody.velocity = velocity;
         Current.Init(model, this);
         camera.Follow = Current.transform;
     }

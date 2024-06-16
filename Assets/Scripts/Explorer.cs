@@ -8,12 +8,12 @@ public class Explorer : MonoBehaviour
     public void Next()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
     }
     public void Repit()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
     public void GoTo(int index)
     {
         SceneManager.LoadScene(index);

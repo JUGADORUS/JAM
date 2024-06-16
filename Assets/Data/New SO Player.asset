@@ -16,16 +16,16 @@ MonoBehaviour:
   modelPlayers:
   - prefab: {fileID: 7267253174679410507, guid: 57df73eca4624734ca2522980a0d097b,
       type: 3}
-    speed: 5
+    speed: 9
     speedRotation: 0
-    jumpForce: 10
+    jumpForce: 6
   - prefab: {fileID: 5432318814996012009, guid: a6657f8432007244d8f6597ff73fe4af,
       type: 3}
-    speed: 10
+    speed: 4
     speedRotation: 0.5
-    jumpForce: 10
-  - prefab: {fileID: 6649868257165496500, guid: 9dbc694998b057a46a9e2ac50f31caed,
+    jumpForce: 12
+  - prefab: {fileID: 1234988557616629806, guid: ee40052c7d2285d479ee2e00d64a33b1,
       type: 3}
-    speed: 2
+    speed: 0.4
     speedRotation: 0
-    jumpForce: 10
+    jumpForce: 13
