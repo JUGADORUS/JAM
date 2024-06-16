@@ -155,4 +155,5 @@ MonoBehaviour:
   spawnShape: {fileID: 0}
   rigidbody: {fileID: 295340630664966574}
   collider: {fileID: 8380552401254064758}
+  mesh: {fileID: 6805815272233589274}
   _isGrounded: 1

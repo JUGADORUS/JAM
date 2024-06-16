@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d03eba13abf62524ba35e624fabd0581, type: 3}
   m_Name: New SO Player
   m_EditorClassIdentifier: 
-  indexGeneralShape: 1
+  indexGeneralShape: 0
   modelPlayers:
   - prefab: {fileID: 7267253174679410507, guid: 57df73eca4624734ca2522980a0d097b,
       type: 3}
@@ -24,7 +24,8 @@ MonoBehaviour:
     speed: 10
     speedRotation: 0.5
     jumpForce: 10
-  - prefab: {fileID: 602644273715548695, guid: c69effd4cf24bcc4f9c586434c287985, type: 3}
+  - prefab: {fileID: 6649868257165496500, guid: 9dbc694998b057a46a9e2ac50f31caed,
+      type: 3}
     speed: 2
     speedRotation: 0
     jumpForce: 10

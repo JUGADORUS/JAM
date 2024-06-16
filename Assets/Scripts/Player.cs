@@ -8,6 +8,7 @@ public abstract class Player : MonoBehaviour
     [SerializeField] private RespawnShape spawnShape;
     [SerializeField] public Rigidbody rigidbody;
     [SerializeField] public Collider collider;
+    public MeshRenderer mesh;
     public bool _isGrounded = true;
 
     public void Init(ModelPlayer model, RespawnShape respawnShape)

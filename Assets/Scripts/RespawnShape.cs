@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 using static UnityEditor.PlayerSettings;
 
 public class RespawnShape : MonoBehaviour
@@ -9,9 +10,11 @@ public class RespawnShape : MonoBehaviour
     private Player Current;
     private Transform Copy;
     [SerializeField] private float distance;
+    [SerializeField] private CinemachineVirtualCamera camera;
+    [SerializeField] private Material material;
     private void Start()
     {
-        SpawnInit(player.modelPlayers[player.indexGeneralShape], Vector3.zero);
+        SpawnInit(player.modelPlayers[player.indexGeneralShape], transform.position);
     }
     private void Update()
     {
@@ -45,6 +48,7 @@ public class RespawnShape : MonoBehaviour
             return;
         }
         Player copy = Instantiate(Current.modelPlayer.prefab, new Vector3(Current.transform.position.x + wight + distance, Current.transform.position.y, Current.transform.position.z), Quaternion.identity);
+        copy.mesh.material = material;
         Copy = copy.transform;
         Destroy(copy);
     }
@@ -54,7 +58,7 @@ public class RespawnShape : MonoBehaviour
         {
             return;
         }
-        Vector3 pos = Vector3.zero;
+        Vector3 pos = transform.position;
         if (Current != null)
         {
             pos = Current.transform.position;
@@ -90,5 +94,6 @@ public class RespawnShape : MonoBehaviour
     {
         Current = Instantiate(model.prefab, pos, Quaternion.identity);
         Current.Init(model, this);
+        camera.Follow = Current.transform;
     }
 }

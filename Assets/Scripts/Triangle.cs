@@ -34,7 +34,7 @@ public class Triangle : Player
         {     
             Vector3 pos = parent.position - transform.position;
             pos.y = parent.position.y;
-            pos.y -= parent.localScale.y * 1.2f;
+            pos.y -= (parent.localScale.y / 3.2f);
             transform.position = new Vector3(parent.position.x + difference.Value, pos.y, parent.position.z);
             return;
         }
