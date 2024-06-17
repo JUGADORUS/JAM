@@ -9,6 +9,7 @@ public class Triangle : Player
     private float? difference;
     private void OnCollisionExit(Collision collision)
     {
+        _isGrounded = false;
         if (collision.gameObject.layer == LayerMask.NameToLayer("IsMagnet"))
         {
             parent = collision.gameObject.transform;

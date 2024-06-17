@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Water : MonoBehaviour
 {
-    [SerializeField] private Explorer _explorer;
-
+    [SerializeField] private RespawnShape respawnShape;
     private void OnTriggerEnter(Collider other)
     {
-        if((other.TryGetComponent(out Sphere sphere )) || (other.TryGetComponent(out Rectangle rectangle)) || (other.TryGetComponent(out Triangle triangle)))
+        if(other.TryGetComponent(out Player player))
         {
-            _explorer.Repit();
+            respawnShape.SpawnInit(player.modelPlayer, respawnShape.transform.position);
         }
     }
 }

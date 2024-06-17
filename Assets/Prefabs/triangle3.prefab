@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: triangle3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e1614fcb6b2b748458687062c3114af9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -212,6 +217,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: eye2
       objectReference: {fileID: 0}
+    - target: {fileID: 3251334085153609336, guid: 969f68f7ed27ba340891d31ecfe1bbef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331692943683354924, guid: 969f68f7ed27ba340891d31ecfe1bbef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033073539454002331, guid: 969f68f7ed27ba340891d31ecfe1bbef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8702421243554990304, guid: 969f68f7ed27ba340891d31ecfe1bbef,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -295,6 +315,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: eye2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3251334085153609336, guid: 969f68f7ed27ba340891d31ecfe1bbef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331692943683354924, guid: 969f68f7ed27ba340891d31ecfe1bbef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033073539454002331, guid: 969f68f7ed27ba340891d31ecfe1bbef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8702421243554990304, guid: 969f68f7ed27ba340891d31ecfe1bbef,
         type: 3}

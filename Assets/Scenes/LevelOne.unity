@@ -2664,7 +2664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6038204afb2f0aa4284da380c76c27ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explorer: {fileID: 509863993}
+  respawnShape: {fileID: 838442144}
 --- !u!54 &691697934
 Rigidbody:
   m_ObjectHideFlags: 0
