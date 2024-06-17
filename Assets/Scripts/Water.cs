@@ -8,7 +8,7 @@ public class Water : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out Rigidbody rigidbody ))
+        if((other.TryGetComponent(out Sphere sphere )) || (other.TryGetComponent(out Rectangle rectangle)) || (other.TryGetComponent(out Triangle triangle)))
         {
             _explorer.Repit();
         }
