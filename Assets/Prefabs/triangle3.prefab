@@ -137,18 +137,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f91c2c53d372cfd42a2b388c8014a64c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rigidbody: {fileID: -8407487939906826150}
+  _collider: {fileID: 3449292844034283643}
+  jumpEffect: {fileID: 165672, guid: 146d2ff25be0f824fa285b16b2915ff3, type: 3}
+  isGrounded: 0
   modelPlayer:
     prefab: {fileID: 0}
     speed: 0
     speedRotation: 0
     jumpForce: 0
-  spawnShape: {fileID: 0}
-  rigidbody: {fileID: -8407487939906826150}
-  collider: {fileID: 3449292844034283643}
-  jumpEffect: {fileID: 0}
-  jumpEffectToDelete: {fileID: 0}
   mesh: {fileID: 1449577328118414288}
-  _isGrounded: 0
 --- !u!54 &-8407487939906826150
 Rigidbody:
   m_ObjectHideFlags: 0

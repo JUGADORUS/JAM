@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menu/MainMenu.unity
     guid: c77ea826e375b7b48a0c7c67c083ec49
   - enabled: 1
-    path: Assets/Scenes/History.unity
+    path: Assets/Scenes/Histories/History.unity
     guid: 058c00ca17e4bd647bd846ab75dc92eb
   - enabled: 1
-    path: Assets/Scenes/HistoryTwo.unity
+    path: Assets/Scenes/Histories/HistoryTwo.unity
     guid: 8edba9965a86f5e46a05e4a795a9cc71
   - enabled: 1
-    path: Assets/Scenes/LevelOne.unity
+    path: Assets/Scenes/Levels/LevelOne.unity
     guid: 14e6b8ef1a0d1644dbfa4292277a7cbb
   - enabled: 1
-    path: Assets/Scenes/LevelTwo.unity
+    path: Assets/Scenes/Levels/LevelTwo.unity
     guid: 7b2c46a9f0ec88f4b8fd4e87df77a78c
   - enabled: 1
-    path: Assets/Scenes/LevelThree.unity
+    path: Assets/Scenes/Levels/LevelThree.unity
     guid: 67433e6de53879c489fb96283f7a3daa
   - enabled: 1
-    path: Assets/Scenes/LevelFour.unity
+    path: Assets/Scenes/Levels/LevelFour.unity
     guid: 782fc8bc9cc5f9a4ca6d42829351d79f
   - enabled: 1
-    path: Assets/Scenes/FinalScene.unity
+    path: Assets/Scenes/Histories/FinalScene.unity
     guid: d30ef56373adb544dbf102754eddc1f6
   m_configObjects: {}
