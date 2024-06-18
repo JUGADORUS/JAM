@@ -9,6 +9,7 @@ public class Water : MonoBehaviour
     {
         if(other.TryGetComponent(out Player player))
         {
+            AudioManager.Instance.Sound.PlayOneShot(AudioManager.Instance.DeathClip);
             respawnShape.SpawnInit(player.modelPlayer, respawnShape.transform.position);
         }
     }

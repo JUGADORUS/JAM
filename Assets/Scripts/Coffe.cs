@@ -19,6 +19,7 @@ public class Coffee : MonoBehaviour
             {
                 buff = Instantiate(BuffEffect, player.transform.position, Quaternion.identity);
             }
+            AudioManager.Instance.Sound.PlayOneShot(AudioManager.Instance.TakeCoffeClip);
             buff.transform.SetParent(player.transform);
             StartCoroutine(SetRotation(player));
             StartCoroutine(DissappearingProcess());

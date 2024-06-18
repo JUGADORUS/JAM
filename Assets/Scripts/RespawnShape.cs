@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using static UnityEditor.PlayerSettings;
 
 public class RespawnShape : MonoBehaviour
 {
@@ -98,7 +97,7 @@ public class RespawnShape : MonoBehaviour
     }
     public void SpawnInit(ModelPlayer model, Vector3 pos)
     {
-
+        AudioManager.Instance.Sound.PlayOneShot(AudioManager.Instance.SpawnClip);
         Current = Instantiate(model.prefab, pos, Quaternion.identity);
         Current.rigidbody.velocity = velocity;
         Current.Init(model, this, jumpEffect);

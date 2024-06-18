@@ -132,7 +132,6 @@ GameObject:
   m_Component:
   - component: {fileID: 93356275}
   - component: {fileID: 93356274}
-  - component: {fileID: 93356273}
   - component: {fileID: 93356272}
   m_Layer: 0
   m_Name: Main Camera (1)
@@ -185,14 +184,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &93356273
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93356271}
-  m_Enabled: 1
 --- !u!20 &93356274
 Camera:
   m_ObjectHideFlags: 0
@@ -517,10 +508,10 @@ RectTransform:
   - {fileID: 998827042}
   m_Father: {fileID: 1427986405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -76, y: 74.7}
-  m_SizeDelta: {x: 320.4, y: 207.36}
+  m_AnchorMin: {x: 0.79360414, y: 0.05435125}
+  m_AnchorMax: {x: 0.96300006, y: 0.24380094}
+  m_AnchoredPosition: {x: -5, y: 10.700012}
+  m_SizeDelta: {x: -4.600006, y: -15.639999}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &700514857
 MonoBehaviour:
@@ -1115,10 +1106,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1427986405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -42.8, y: -47.21}
-  m_SizeDelta: {x: 926.38, y: 273.3}
+  m_AnchorMin: {x: 0.49166664, y: 0.73}
+  m_AnchorMax: {x: 0.9786042, y: 0.9634989}
+  m_AnchoredPosition: {x: -1.7999878, y: -4.210022}
+  m_SizeDelta: {x: -8.619995, y: -1.7000122}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1265557866
 MonoBehaviour:
@@ -1296,6 +1287,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thin Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78ade105789c1114f91e52abcdd9f12b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1431,6 +1427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434971359}
   - component: {fileID: 1434971358}
+  - component: {fileID: 1434971360}
   m_Layer: 0
   m_Name: Explorer
   m_TagString: Untagged
@@ -1465,6 +1462,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1434971360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434971357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7820965e13443c342a00b8fa82f88305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1481200205
 PrefabInstance:
   m_ObjectHideFlags: 0

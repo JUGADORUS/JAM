@@ -36,6 +36,7 @@ public abstract class Player : MonoBehaviour
     {
         if (_isGrounded)
         {
+            AudioManager.Instance.Sound.PlayOneShot(AudioManager.Instance.JumpClip);
             rigidbody.velocity = Vector3.up * modelPlayer.jumpForce;
             _isGrounded = false;
             jumpEffectToDelete = Instantiate(jumpEffect, transform.position, Quaternion.identity);
