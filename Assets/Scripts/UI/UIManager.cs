@@ -9,8 +9,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _text;
 
     private TimeSpan _timeSpan;
-    private int minutes = 0;
-    private int seconds = 0;
+    private int _minutes = 0;
+    private int _seconds = 0;
 
     public IEnumerator WriteText()
     {
@@ -23,9 +23,9 @@ public class UIManager : MonoBehaviour
 
     public void SetTimerInGame()
     {
-        CountTime(ref minutes,ref seconds, GlobalTimer.Instance.glTimer);
+        CountTime(ref _minutes,ref _seconds, GlobalTimer.Instance.glTimer);
 
-        _text.SetText($"{minutes}:{seconds}");
+        _text.SetText($"{_minutes}:{_seconds}");
     }
 
     public void SetTimerInMenu()
@@ -34,8 +34,8 @@ public class UIManager : MonoBehaviour
 
         if (_score < GlobalTimer.Instance.FinalTime)
         {
-            CountTime(ref minutes, ref seconds, GlobalTimer.Instance.FinalTime.Value);
-            _text.SetText($"Time: {minutes}:{seconds}");
+            CountTime(ref _minutes, ref _seconds, GlobalTimer.Instance.FinalTime.Value);
+            _text.SetText($"Time: {_minutes}:{_seconds}");
         }
     }
 
