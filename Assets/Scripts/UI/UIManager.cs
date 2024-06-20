@@ -24,7 +24,6 @@ public class UIManager : MonoBehaviour
     public void SetTimerInGame()
     {
         CountTime(ref _minutes,ref _seconds, GlobalTimer.Instance.glTimer);
-
         _text.SetText($"{_minutes}:{_seconds}");
     }
 
