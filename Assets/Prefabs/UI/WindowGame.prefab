@@ -1360,6 +1360,8 @@ GameObject:
   - component: {fileID: 1554319394119968096}
   - component: {fileID: 3186077833334936303}
   - component: {fileID: 3445591230617910280}
+  - component: {fileID: 6290767126013823578}
+  - component: {fileID: 8341576432232746222}
   m_Layer: 5
   m_Name: WindowGame
   m_TagString: Untagged
@@ -1452,3 +1454,30 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6290767126013823578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968810835168989824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431610b6aca0d0d4f833c73c5bce8e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textToWrite: 
+  _text: {fileID: 2757078669111824576}
+--- !u!114 &8341576432232746222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968810835168989824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5e0927b4005724b95d8072196120eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _UIManager: {fileID: 6290767126013823578}

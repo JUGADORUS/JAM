@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 78537220}
   - component: {fileID: 78537219}
   - component: {fileID: 78537218}
+  - component: {fileID: 78537223}
   - component: {fileID: 78537222}
   m_Layer: 5
   m_Name: Canvas
@@ -316,7 +317,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f3fb42b09a57c4b83faa8e6e3ab018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1790602706}
+  _UIManager: {fileID: 78537223}
+--- !u!114 &78537223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78537217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431610b6aca0d0d4f833c73c5bce8e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textToWrite: 
+  _text: {fileID: 1790602706}
 --- !u!1 &94206447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,7 +1481,6 @@ GameObject:
   - component: {fileID: 785946752}
   - component: {fileID: 785946755}
   - component: {fileID: 785946754}
-  - component: {fileID: 785946753}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -1494,62 +1508,6 @@ RectTransform:
   m_AnchoredPosition: {x: 30, y: -40}
   m_SizeDelta: {x: 300, y: 214.90002}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &785946753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 785946751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 785946754}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1705354306}
-        m_TargetAssemblyTypeName: Explorer, Assembly-CSharp
-        m_MethodName: Next
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &785946754
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -497,6 +497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 131811044}
   - component: {fileID: 131811045}
+  - component: {fileID: 131811046}
   m_Layer: 0
   m_Name: TextWriter
   m_TagString: Untagged
@@ -531,6 +532,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca65bacc455ad540bb8bcdd1fdb6a07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _UIManager: {fileID: 131811046}
+--- !u!114 &131811046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131811043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431610b6aca0d0d4f833c73c5bce8e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _textToWrite: "\u041D\u043E \u0432\u0434\u0440\u0443\u0433, \u043A\u043E\u0433\u0434\u0430
     \u043C\u0430\u043B\u044C\u0447\u0438\u043A \u0443\u0431\u0438\u0440\u0430\u043B
     \u043F\u043B\u0430\u0441\u0442\u0438\u043B\u0438\u043D \u043E\u0431\u0440\u0430\u0442\u043D\u043E,
@@ -540,7 +554,7 @@ MonoBehaviour:
     \u043E\u0447\u0435\u043D\u044C \u0433\u0440\u0443\u0441\u0442\u043D\u043E, \u0442.\u043A
     \u0435\u0433\u043E \u0440\u0430\u0437\u043B\u0443\u0447\u0438\u043B\u0438 \u0441
     \u0435\u0433\u043E \u0440\u043E\u0434\u043D\u044B\u043C\u0438"
-  _textOnScene: {fileID: 1171681870}
+  _text: {fileID: 1171681870}
 --- !u!1001 &169912779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4903,7 +4917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.07583334, y: 0.7242998}
   m_AnchorMax: {x: 0.9257291, y: 0.961}
-  m_AnchoredPosition: {x: -1.5, y: -1.210022}
+  m_AnchoredPosition: {x: -1.5, y: -1.210083}
   m_SizeDelta: {x: -4.9699707, y: -5.700012}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1171681870
@@ -4926,7 +4940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: ' '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a558d8791087e394a89cafcfc9c50da8, type: 2}
   m_sharedMaterial: {fileID: 6331191061868415187, guid: a558d8791087e394a89cafcfc9c50da8,
@@ -6002,7 +6016,6 @@ GameObject:
   - component: {fileID: 1607950143}
   - component: {fileID: 1607950142}
   - component: {fileID: 1607950141}
-  - component: {fileID: 1607950145}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6094,20 +6107,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1607950145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607950140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ca65bacc455ad540bb8bcdd1fdb6a07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _textToWrite: 
-  _textOnScene: {fileID: 1171681870}
 --- !u!1001 &1614207122
 PrefabInstance:
   m_ObjectHideFlags: 0
